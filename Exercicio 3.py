@@ -1,6 +1,6 @@
 numero = int(input("Digite um numero:  "))
 if  numero < 0 :
-    n = abs(numero)
+    n = numero * -1
     print(n)
 elif numero > 10:
     numero2 = int(input("Digite outro numero:  "))
